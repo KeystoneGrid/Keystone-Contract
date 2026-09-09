@@ -1,0 +1,58 @@
+name: Feature
+description: Propose a new feature or implementation task
+title: "[Feature]: "
+labels:
+
+* feature
+  body:
+
+* type: markdown
+  attributes:
+  value: |
+  Thank you for contributing to KeystoneGrid.
+
+  ```
+  Please check existing issues and relevant RFCs before creating a new feature request.
+  ```
+
+* type: textarea
+  id: problem
+  attributes:
+  label: Problem
+  description: What problem does this change solve?
+  validations:
+  required: true
+
+* type: textarea
+  id: context
+  attributes:
+  label: Context
+  description: Provide relevant background and links to RFCs or specifications.
+
+* type: textarea
+  id: scope
+  attributes:
+  label: Proposed Scope
+  description: Describe what should be implemented.
+  validations:
+  required: true
+
+* type: textarea
+  id: acceptance
+  attributes:
+  label: Acceptance Criteria
+  description: What conditions must be satisfied for this issue to be considered complete?
+  validations:
+  required: true
+
+* type: textarea
+  id: testing
+  attributes:
+  label: Testing Requirements
+  description: What tests should accompany the implementation?
+
+* type: textarea
+  id: security
+  attributes:
+  label: Security Considerations
+  description: Identify security-sensitive behavior or risks.
